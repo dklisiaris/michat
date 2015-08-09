@@ -1,6 +1,6 @@
 {
   "name": "MiChat",
-  "description": "MiChat is a versatile chat service, in which you can create or join public channels, sent direct messages and create or get invited into private groups.",
+  "description": "MiChat is a versatile chat service with public channels, direct messages and private groups.",
   "repository": "https://github.com/dklisiaris/michat/tree/development",
   "logo": "https://raw.githubusercontent.com/dklisiaris/michat/development/public/images/logo/512x512.png",
   "keywords": ["meteor", "social", "community", "chat"],
