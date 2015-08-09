@@ -2,10 +2,10 @@
 	"deploy": {
 		"production": {
 			"user": "root",
-			"host": ["rocket.chat"],
-			"ref": "origin/master",
-			"repo": "https://github.com/RocketChat/Rocket.Chat.git",
-			"path": "/var/www/rocket.chat",
+			"host": ["michat.heroku.com"],
+			"ref": "origin/development",
+			"repo": "https://github.com/dklisiaris/michat",
+			"path": "/var/www/michat",
 			"post-deploy": "source build.sh production"
 		}
 	}

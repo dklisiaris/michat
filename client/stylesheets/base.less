@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900);
 @import url(//fonts.googleapis.com/css?family=Roboto:300,400,500,600,700&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic);
 @import "global/_variables.less";
 @import "utils/_lesshat.import.less";
@@ -291,7 +292,7 @@ html {
 }
 
 body {
-	font-family: "Roboto", "HelveticaNeue-Light", "sans-serif";
+	font-family: "Lato", "Roboto", "HelveticaNeue-Light", "sans-serif";
 	font-size: 14px;
 	color: @primary-font-color;
 	height: 100%;
@@ -927,7 +928,7 @@ a.github-fork {
 			color: rgba(255, 255, 255, 0.65);
 			font-size: 16px;
 			margin-top: 3px;
-			font-weight: 400;
+			font-weight: 900;
 			overflow: hidden;
 			text-overflow: ellipsis;
 			position: relative;
@@ -1222,7 +1223,7 @@ a.github-fork {
 		select {
 			border-width: 0 0 1px 0;
 			border-color: @tertiary-font-color;
-			background-color: #04436a;
+			background-color: @primary-background-color;
 			color: @quaternary-font-color;
 			padding: 0 8px;
 			box-shadow: 0 0 0;
@@ -1284,7 +1285,7 @@ a.github-fork {
 		display: block;
 		-webkit-overflow-scrolling: touch;
 		box-shadow: 0 0 5px rgba(0, 0, 0, 0.4) inset;
-		background-color: lighten(@primary-background-color, 2%);
+		background-color: @lighten-primary-color;
 		.custom-scroll(transparent,
 		rgba(255,
 		255,
@@ -1324,6 +1325,7 @@ a.github-fork {
 		font-size: 11px;
 		padding: 2px 0 2px 10px;
 		color: @tertiary-font-color;
+		font-weight: 400; 
 	}
 	.header {
 		position: absolute;
@@ -1333,6 +1335,7 @@ a.github-fork {
 		color: #fff;
 		z-index: 110;
 		cursor: pointer;
+		border-bottom: 2px solid @dark-background-color;
 		min-height: @header-min-height;
 		height: @header-min-height;
 		background-color: @primary-background-color;
@@ -1360,6 +1363,7 @@ a.github-fork {
 		z-index: 120;
 		text-align: right;
 		background: #fff;
+		border-top: 2px solid @dark-background-color;
 		min-height: @footer-min-height;
 		height: @footer-min-height;
 		background-color: @primary-background-color;
@@ -1384,10 +1388,12 @@ a.github-fork {
 			margin-top: 2px;
 		}
 		img {
-			display: inline-block;
+			display: block;
 			max-width: 222px;
 			max-height: 43px;
 			margin-bottom: -10px;
+			margin-left: auto;
+			margin-right: auto;
 		}
 	}
 	.search-form {
@@ -1404,7 +1410,7 @@ a.github-fork {
 		cursor: pointer;
 		position: relative;
 		text-transform: uppercase;
-		font-weight: 500;
+		font-weight: 700;
 		margin: 25px 0 0 0;
 		color: @tertiary-font-color;
 		line-height: 28px;
@@ -2917,7 +2923,7 @@ a.github-fork {
 			padding: 4px 8px;
 			font-size: 22px;
 			border-bottom: 1px solid #DFDFDF;
-			font-family: "Roboto", "HelveticaNeue-Light", "sans-serif";
+			font-family: "Lato", "Roboto", "HelveticaNeue-Light", "sans-serif";
 			font-weight: 400;
 			&.error {
 				border-bottom: 1px solid #b40202;
@@ -2992,7 +2998,7 @@ a.github-fork {
 		}
 	}
 	a {
-		font-family: "Roboto", "HelveticaNeue-Light", "sans-serif";
+		font-family: "Lato", "Roboto", "HelveticaNeue-Light", "sans-serif";
 		font-weight: 300;
 	}
 	.screen {
@@ -3077,7 +3083,7 @@ a.github-fork {
 			&:extend(.rocket-h3);
 		}
 		p {
-			font-family: "Muli", "Roboto", "HelveticaNeue-Light", "sans-serif";
+			font-family: "Lato", "Muli", "Roboto", "HelveticaNeue-Light", "sans-serif";
 			margin: 18px 0;
 			font-size: 16px;
 			line-height: 24px;

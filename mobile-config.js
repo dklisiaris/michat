@@ -1,12 +1,12 @@
 // This section sets up some basic app metadata,
 // the entire section is optional.
 App.info({
-  id: 'com.konecty.rocketchat',
-  name: 'Rocket.Chat',
-  description: 'Rocket.Chat',
-  author: 'Rocket.Chat Development Group',
-  email: 'contact@rocket.chat',
-  website: 'https://rocket.chat'
+  id: 'org.dklisiaris.michat',
+  name: 'Mitchat',
+  description: 'Michat',
+  author: 'Michat Development Group',
+  email: 'contact@michat.herokuapp..com',
+  website: 'https://michat.herokuapp..com'
 });
 
 // Set up resources such as icons and launch screens.

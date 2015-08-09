@@ -1,66 +1,66 @@
 {
 	"apps": [{
-		"name": "rocket.chat.0",
+		"name": "michat.0",
 		"max_memory_restart": "1024M",
 		"log_date_format": "YYYY-MM-DD HH:mm:ss SSS",
-		"script": "/var/www/rocket.chat/bundle/main.js",
-		"out_file": "/var/log/rocket.chat/app.log",
-		"error_file": "/var/log/rocket.chat/err.log",
+		"script": "/var/www/michat/bundle/main.js",
+		"out_file": "/var/log/michat/app.log",
+		"error_file": "/var/log/michat/err.log",
 		"port": "8080",
 		"env": {
 			"CDN_PREFIX": "//dbde4sd21oahf.cloudfront.net",
 			"MONGO_URL": "mongodb://localhost:27017/rocketchat",
 			"MONGO_OPLOG_URL": "mongodb://localhost:27017/local",
-			"ROOT_URL": "https://rocket.chat",
-			"DDP_DEFAULT_CONNECTION_URL": "https://rocket.chat",
+			"ROOT_URL": "https://michat",
+			"DDP_DEFAULT_CONNECTION_URL": "https://michat",
 			"PORT": "8080"
 		}
 	}, {
-		"name": "rocket.chat.1",
+		"name": "michat.1",
 		"max_memory_restart": "1024M",
 		"log_date_format": "YYYY-MM-DD HH:mm:ss SSS",
-		"script": "/var/www/rocket.chat/bundle/main.js",
-		"out_file": "/var/log/rocket.chat/app.log",
-		"error_file": "/var/log/rocket.chat/err.log",
+		"script": "/var/www/michat/bundle/main.js",
+		"out_file": "/var/log/michat/app.log",
+		"error_file": "/var/log/michat/err.log",
 		"port": "8081",
 		"env": {
 			"CDN_PREFIX": "//dbde4sd21oahf.cloudfront.net",
 			"MONGO_URL": "mongodb://localhost:27017/rocketchat",
 			"MONGO_OPLOG_URL": "mongodb://localhost:27017/local",
-			"ROOT_URL": "https://rocket.chat",
-			"DDP_DEFAULT_CONNECTION_URL": "https://rocket.chat",
+			"ROOT_URL": "https://michat",
+			"DDP_DEFAULT_CONNECTION_URL": "https://michat",
 			"PORT": "8081"
 		}
 	}, {
-		"name": "rocket.chat.2",
+		"name": "michat.2",
 		"max_memory_restart": "1024M",
 		"log_date_format": "YYYY-MM-DD HH:mm:ss SSS",
-		"script": "/var/www/rocket.chat/bundle/main.js",
-		"out_file": "/var/log/rocket.chat/app.log",
-		"error_file": "/var/log/rocket.chat/err.log",
+		"script": "/var/www/michat/bundle/main.js",
+		"out_file": "/var/log/michat/app.log",
+		"error_file": "/var/log/michat/err.log",
 		"port": "8082",
 		"env": {
 			"CDN_PREFIX": "//dbde4sd21oahf.cloudfront.net",
 			"MONGO_URL": "mongodb://localhost:27017/rocketchat",
 			"MONGO_OPLOG_URL": "mongodb://localhost:27017/local",
-			"ROOT_URL": "https://rocket.chat",
-			"DDP_DEFAULT_CONNECTION_URL": "https://rocket.chat",
+			"ROOT_URL": "https://michat",
+			"DDP_DEFAULT_CONNECTION_URL": "https://michat",
 			"PORT": "8082"
 		}
 	}, {
-		"name": "rocket.chat.3",
+		"name": "michat.3",
 		"max_memory_restart": "1024M",
 		"log_date_format": "YYYY-MM-DD HH:mm:ss SSS",
-		"script": "/var/www/rocket.chat/bundle/main.js",
-		"out_file": "/var/log/rocket.chat/app.log",
-		"error_file": "/var/log/rocket.chat/err.log",
+		"script": "/var/www/michat/bundle/main.js",
+		"out_file": "/var/log/michat/app.log",
+		"error_file": "/var/log/michat/err.log",
 		"port": "8083",
 		"env": {
 			"CDN_PREFIX": "//dbde4sd21oahf.cloudfront.net",
 			"MONGO_URL": "mongodb://localhost:27017/rocketchat",
 			"MONGO_OPLOG_URL": "mongodb://localhost:27017/local",
-			"ROOT_URL": "https://rocket.chat",
-			"DDP_DEFAULT_CONNECTION_URL": "https://rocket.chat",
+			"ROOT_URL": "https://michat",
+			"DDP_DEFAULT_CONNECTION_URL": "https://michat",
 			"PORT": "8083"
 		}
 	}]
