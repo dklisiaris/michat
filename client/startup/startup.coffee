@@ -29,4 +29,4 @@ Meteor.startup ->
 	filename = "/moment-locales/#{userLanguage.toLowerCase()}.js"
 	if filename isnt '/moment-locales/en.js'
 		$.getScript filename, (data) ->
-			moment.locale(userLanguage)
+			moment.locale(userLanguage)	

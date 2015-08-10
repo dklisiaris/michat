@@ -23,7 +23,7 @@ MiChat is a Web Chat Server, developed in JavaScript, using the [Meteor](https:/
 - Emojis
 - Transcripts / History
 - File Upload / Sharing
-- I18n - [Internationalization with Lingohub](https://translate.lingohub.com/engelgabriel/rocket-dot-chat/dashboard)
+- I18n
 - Hubot Friendly - [Hubot Integration Project](https://github.com/RocketChat/hubot-rocketchat)
 - Media Embeds
 - Link Previews

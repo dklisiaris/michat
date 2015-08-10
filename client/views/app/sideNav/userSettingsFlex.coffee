@@ -26,7 +26,7 @@ Template.userSettingsFlex.events
 		selectedLanguage = $('#language').val()
 		if localStorage.getItem('userLanguage') isnt selectedLanguage
 			localStorage.setItem 'userLanguage', selectedLanguage
-			Meteor._reload.reload()
+			Meteor._reload.reload()			
 
 		if $('#password').val()
 			Meteor.call 'setPassword', $('#password').val(), (err, results) ->

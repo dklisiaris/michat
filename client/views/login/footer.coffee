@@ -10,6 +10,7 @@ Template.loginFooter.events
 		TAPi18n.setLanguage(userLanguage)
 		moment.locale(userLanguage)
 		t.languageVersion.set(if userLanguage isnt defaultUserLanguage() then defaultUserLanguage() else 'en')
+		
 
 Template.loginFooter.onCreated ->
 	self = @
