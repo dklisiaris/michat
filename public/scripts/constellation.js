@@ -195,5 +195,3 @@ if ($('body').width() > 400) {
     }
   });
 }
-
-console.log('constellation');

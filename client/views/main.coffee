@@ -106,7 +106,8 @@ Template.main.events
 
 Template.main.onRendered ->
 
-  $('html').addClass("noscroll").removeClass "scroll"
+  # $('html').addClass("noscroll").removeClass "scroll"
+  $('html').addClass("scroll").removeClass("noscroll")
 
   # RTL Support - Need config option on the UI
   if isRtl localStorage.getItem "userLanguage"
